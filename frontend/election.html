@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type = "module" src = "election.js"></script>
+    <title>Gymkhana Elections</title>
+</head>
+<body class="fade-in">
+    <H1>GYMKHANA ELECTIONS : GENERAL SECRETARY, SNT COUNCIL</H1>
+    <button id="register">Register</button>
+    <div id="elec">
+        <h2 id="user">Currently Connected to : </h2>
+        <h2>Candidates</h2>
+        <div id="candidates">
+            <div id="card">
+                <img src="https://pclub.in/images/pratham.jpg">
+                <ul>
+                    <li><B>PRATHAM SAHU</B></li>
+                    <li><B>Index : 1</B></li>
+                </ul>
+            </div>
+            <div id="card">
+                <img src="https://pclub.in/images/devansh.jpg">
+                <ul>
+                    <li><B>DEVANSH JAIN</B></li>
+                    <li><B>Index : 2</B></li>
+                </ul>
+            </div>
+            <div id="card">
+                <img src="https://pclub.in/images/jha.jpg">
+                <ul>
+                    <li><B>RAHUL JHA</B></li>
+                    <li><B>Index : 3</B></li>
+                    
+                </ul>
+            </div>
+            <div id="card">
+            <img src="https://pclub.in/images/ridin.jpg">
+            <ul>
+                <li><B>RIDIN DATTA</B></li>
+                <li><B>Index : 4</B></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2>Cast Vote (Please Enter the INDEX of the Candidate You Want to Prefer)</h2>
+        <div class="input-container">
+            <input type="text" id="candidate1" placeholder="Index of 1st Preference">
+            <input type="text" id="candidate2" placeholder="Index of 2nd Preference">
+            <input type="text" id="candidate3" placeholder="Index of 3rd Preference">
+        </div>
+        <button id="castVote">Cast Vote</button>
+    </div>
+    <div>
+        <button id="winningCandidate">Update Standings</button>
+        <h2 id="currentWinner">Current Standings</h2>
+        
+        <table style="width:100%">
+            <tr>
+              <th class="col">CANDIDATE</th>
+              <th>SCORE</th>
+            </tr>
+            <tr>
+              <td class="col">PRATHAM SAHU</td>
+              <td id="pratham">XXX</td>
+            </tr>
+            <tr>
+              <td class="col">DEVANSH JAIN</td>
+              <td id="devansh">XXX</td>
+            </tr>
+            <tr>
+              <td class="col">RAHUL JHA</td>
+              <td id="rahul">XXX</td>
+            </tr>
+            <tr>
+              <td class="col">RIDIN DATTA</td>
+              <td id="ridin">XXX</td>
+            </tr>
+          </table>
+    </div>
+    <h4>Please disconnect from MetaMask and refresh the page after casting your vote.</h4>
+</div>
+</body>
+</html>

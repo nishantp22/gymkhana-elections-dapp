@@ -1,0 +1,125 @@
+/* Apply dark theme styling to the body and center the content */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Wix+Madefor+Display:wght@500&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 720px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #000000; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+/* Style the buttons */
+button {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #22b1bb; /* Dark green button background */
+    color: #ffffff; /* Light text color */
+    border: none; 
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+button:hover {
+  opacity:0.9;
+    background-color: #139ea8; 
+}
+
+.col {
+    width: 50%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    /* Add this property to make the inputs stay in a single line */
+    /* flex: 1; */
+    width: 200px;
+    background-color: #2b2b2b; /* Dark input background color */
+    color: #ffffff; /* Light input text color */
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+#candidates {
+    display: flex;
+    justify-content: space-between;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+/* Style the 'Cast Vote' button */
+#castVote {
+    background-color: #e98520;
+    color: white;
+}
+
+#castVote:hover {
+    background-color: #d67615;
+}
+
+/* Style the 'Show Winning Candidate' button */
+#winningCandidate {
+    background-color: #5236f4;
+    color: white;
+}
+
+#winningCandidate:hover {
+    background-color: #4526f0;
+}
+
+/* Style the 'Current Winner' heading */
+#currentWinner {
+    margin-top: 30px;
+}
+
+/* Style the heading tags */
+h3 {
+    margin: 20px 0;
+}
+
+/* Add some spacing between the divs */
+div {
+    margin: 20px 0;
+}
+
+/* Add this container div to keep the inputs in a single line */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+  to {
+      opacity: 1;
+  }
+}
