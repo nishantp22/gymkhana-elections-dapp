@@ -20,6 +20,7 @@ The Gymkhana Elections DApp consists of three main functionalities:
 
 - After successfully registering as a voter, users can proceed to cast their votes.
 - Users need to enter the index numbers of their preferred candidates (first, second, and third choices) in the input fields provided.
+- The first, second and third preferences are awarded with 5,3 and 1 points respectively.
 - Upon clicking the "Cast Vote" button, the user's preferences will be recorded, and their vote will be added to the respective candidates.
 
 ### 2.3. View Current Standings
@@ -38,7 +39,7 @@ Follow these steps to use the Gymkhana Elections DApp:
 
 ### 3.2. Accessing the DApp
 
-1. Open the DApp in your web browser by loading the index.html file.
+1. The front-end of the DApp is hosted on https://gymkhanaelections.netlify.app/. Open this link. Else, open `index.html` from the frontend folder.
 2. Click the "Connect to MetaMask Account" button to connect your MetaMask wallet to the DApp.
 3. A prompt from MetaMask will appear to allow the DApp access to your Ethereum account. Accept the request.
 
