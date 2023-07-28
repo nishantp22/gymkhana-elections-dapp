@@ -39,7 +39,7 @@ Follow these steps to use the Gymkhana Elections DApp:
 
 ### 3.2. Accessing the DApp
 
-1. The front-end of the DApp is hosted on https://gymkhanaelections.netlify.app/. Open this link. Else, open `index.html` from the frontend folder.
+1. The front-end of the DApp is hosted on https://gymkhanaelections.netlify.app/. Open this link. Else, open `index.html` from the frontend folder. The contract address is : 0x87e94802E452678E2d48B1184f0c10577C6F6F03
 2. Click the "Connect to MetaMask Account" button to connect your MetaMask wallet to the DApp.
 3. A prompt from MetaMask will appear to allow the DApp access to your Ethereum account. Accept the request.
 
