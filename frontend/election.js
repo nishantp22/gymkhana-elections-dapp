@@ -7,7 +7,7 @@ if(!isConnected){
     window.location.href="index.html";
 }
 
-// check if MetaMask exists
+
 if (typeof window.ethereum !== 'undefined') {
   console.log('MetaMask is installed!');
 }
@@ -16,14 +16,12 @@ const provider = new ethers.providers.Web3Provider(window.ethereum);
 const network = await provider.getNetwork();
 console.log(network);
 
-// get the account
+
 const signer = provider.getSigner();
 const account = await signer.getAddress();
 console.log(account);
 
-// edit DOM to show account
 
-// get the balance
 const balance = ethers.utils.formatEther(await signer.getBalance());
 console.log(balance);
 
